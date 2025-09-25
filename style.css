@@ -9,23 +9,6 @@ body {
   line-height: 1.6;
 }
 
-/* ===== Dark Mode ===== */
-.dark-mode {
-  background-color: #1a1a1d; /* meditative dark */
-  color: #f7f7f7;
-}
-.dark-mode h1,
-.dark-mode h2,
-.dark-mode h3,
-.dark-mode h4,
-.dark-mode h5,
-.dark-mode h6 {
-  color: #ffb84d !important;
-}
-.dark-mode a {
-  color: #ff9900;
-}
-
 /* ===== Section Styling ===== */
 section {
   padding-top: 1.5rem;
@@ -112,4 +95,32 @@ footer p {
 footer .highlight-kartik {
   font-weight: 700;
   text-shadow: 0 0 4px rgba(230, 138, 0, 0.4);
+}
+
+/* ===== Custom Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 12px; /* width of vertical scrollbar */
+  height: 12px; /* height of horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #fff3d6; /* golden blush aura, matches even sections */
+  border-radius: 6px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.05);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e68a00; /* saffron/golden main color */
+  border-radius: 6px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d97706; /* darker saffron on hover */
+  box-shadow: inset 0 0 8px rgba(0,0,0,0.25);
+}
+
+::-webkit-scrollbar-corner {
+  background: #fff9f0; /* matches main body background */
 }
