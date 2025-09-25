@@ -1,0 +1,115 @@
+/* ===== General Body ===== */
+body {
+  background-color: #fff9f0;  /* warm ivory, serene */
+  color: #5c5c70;            /* neutral gray */
+  font-family: 'Newsreader', serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+  line-height: 1.6;
+}
+
+/* ===== Dark Mode ===== */
+.dark-mode {
+  background-color: #1a1a1d; /* meditative dark */
+  color: #f7f7f7;
+}
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6 {
+  color: #ffb84d !important;
+}
+.dark-mode a {
+  color: #ff9900;
+}
+
+/* ===== Section Styling ===== */
+section {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+section:nth-child(even) {
+  background-color: #fff3d6; /* golden blush aura */
+}
+
+/* ===== Header Section ===== */
+header#home {
+  background: linear-gradient(to bottom, #fff9f0, #fff3d6);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #f1d1a8;
+}
+
+/* ===== Navbar & Footer Harmony ===== */
+nav.navbar,
+footer {
+  background: linear-gradient(to right, #fff9f0, #fff3d6);
+  box-shadow: 0 2px 6px rgba(201, 111, 0, 0.15);
+}
+
+/* ===== Decorative Divider (sacred aura) ===== */
+.floral-border {
+  width: 160px;
+  height: 3px;
+  background: linear-gradient(to right, transparent, #e68a00, transparent);
+  margin: 0.75rem auto 1rem;
+  border-radius: 3px;
+}
+
+/* ===== Scroll to Top Button ===== */
+#goTopBtn {
+  background: #e68a00;
+  color: #fff;
+}
+#goTopBtn:hover {
+  background: #d97706;
+  box-shadow: 0 0 12px rgba(230, 138, 0, 0.7);
+}
+
+/* ===== Headings ===== */
+h1, h2, h3, h4, h5, h6 {
+  color: #c96f00 !important;  /* saffron devotion */
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+/* ===== Paragraphs ===== */
+p {
+  margin-bottom: 1rem;
+}
+
+/* ===== Links ===== */
+a {
+  color: #e68a00;
+  text-decoration: none;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+/* ===== Blockquotes (for Mantra) ===== */
+blockquote {
+  border-left: 4px solid #e68a00;
+  padding-left: 1rem;
+  font-style: italic;
+  color: #4a4a5c;
+  background: rgba(230, 138, 0, 0.05);
+  border-radius: 6px;
+}
+
+/* ===== Image Styling ===== */
+img {
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* ===== Footer Text ===== */
+footer p {
+  margin: 0.25rem 0;
+}
+footer .highlight-kartik {
+  font-weight: 700;
+  text-shadow: 0 0 4px rgba(230, 138, 0, 0.4);
+}
